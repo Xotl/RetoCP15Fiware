@@ -1,7 +1,7 @@
  {
   "author"      : "Xotl <edgardo333@gmail.com>",
-  "name"        : "CP15 fiware Challenge",
-  "description" : "CP15 fiware Challenge",
+  "name"        : "CP15_Fiware_Challenge",
+  "description" : "CP15 Fiware Challenge",
   "version"     : "0.0.1",
   "engines"     : {
     "node": ">=0.10.0"
