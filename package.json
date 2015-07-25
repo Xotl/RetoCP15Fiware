@@ -1,0 +1,25 @@
+ {
+  "author"      : "Xotl <edgardo333@gmail.com>",
+  "name"        : "CP15 fiware Challenge",
+  "description" : "CP15 fiware Challenge",
+  "version"     : "0.0.1",
+  "engines"     : {
+    "node": ">=0.10.0"
+  },
+  "dependencies" : {
+    "actionhero" : "11.4.1",
+    "ws"         : "latest",
+    "grunt"      : "latest"
+  },
+  "devDependencies" : {
+    "mocha"  : "latest",
+    "should" : "latest"
+  },
+  "scripts" : {
+    "help"         : "actionhero help",
+    "start"        : "actionhero start",
+    "actionhero"   : "actionhero",
+    "startCluster" : "actionhero startCluster",
+    "test"         : "mocha"
+  }
+}
