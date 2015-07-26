@@ -1,8 +1,14 @@
-exports.postLiters = {
-  name: 'postLiters',
+exports.postUserData = {
+  name: 'postUserData',
   description: 'I am an API method which will generate a random number',
   inputs: {
-    liters: {
+    price: {
+      required: true
+    },
+    lat: {
+      required: true
+    },
+    long: {
       required: true
     }
   },
@@ -20,7 +26,7 @@ exports.postLiters = {
       "remoteIP": "200.52.194.71",
       "receivedParams": {
         "apiVersion": "1",
-        "action": "postLiters"
+        "action": "postUserData"
       }
     }
   },
