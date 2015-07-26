@@ -25,7 +25,9 @@ exports.postLiters = {
     }
   },
 
-  run: function(api, data, next){
+  run: function(api, data, next) {
+
+    api.config['my-plugin'].fromPostLiters(data.params.liters);
     data.response.status = 'OK';
     next(null);
   }

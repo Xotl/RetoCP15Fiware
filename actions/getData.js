@@ -22,9 +22,12 @@ exports.getData = {
     }
   },
 
-  run: function(api, data, next){
-    data.response.status = 'OK';
-    next(null);
+  run: function(api, data, next) {
+    api.config['my-plugin'].getOrionData('good', function(err, data) {
+      data.response.status = 'OK';
+      data.response.fiware_response = data;
+      next(err);
+    });
   }
 
 };

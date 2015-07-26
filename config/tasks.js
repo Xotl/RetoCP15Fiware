@@ -1,4 +1,4 @@
-exports.default = { 
+exports.default = {
   tasks: function(api){
     return {
       // Should this node run a scheduler to promote delayed tasks?
@@ -31,6 +31,6 @@ exports.test = {
     return {
       timeout: 100,
       checkTimeout: 50
-    }  
+    }
   }
 }
