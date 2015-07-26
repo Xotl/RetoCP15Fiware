@@ -44,7 +44,6 @@ var orion = {
       });
 
       var temp = queueUserData.shift();
-      console.log("asdsaddpppppppppppppppppp",temp);
       var options = {
         url: FIWARE_BASE_URL + "ngsi10/updateContext/",
         method: 'POST',
@@ -112,6 +111,12 @@ exports.postUserData = {
       required: false
     },
     liters: {
+      required: false
+    },
+    debug: {
+      required: false
+    },
+    flush: {
       required: false
     }
   },
