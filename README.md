@@ -1,4 +1,4 @@
-# My actionhero Project
+# API project for the fiware challenge at CP15
 
 *visit www.actionherojs.com for more information*
 

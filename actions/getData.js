@@ -30,21 +30,67 @@ exports.getData = {
   inputs: {
   },
   outputExample: {
-
-    "serverInformation": {
-      "serverName": "actionhero API",
-      "apiVersion": "0.0.1",
-      "requestDuration": 2,
-      "currentTime": 1437872679509
-    },
-    "requesterInformation": {
-      "id": "c4311e095dbc0b8fb4dd23d6d7a9ceb378270e97-ce117798-fbb6-4af6-be46-1c296665709c",
-      "fingerprint": "c4311e095dbc0b8fb4dd23d6d7a9ceb378270e97",
-      "remoteIP": "200.52.194.71",
-      "receivedParams": {
-        "apiVersion": "1",
-        "action": "getData"
-      }
+    {
+        "fiware_response": {
+            "contextElement": {
+                "type": "",
+                "isPattern": "false",
+                "id": "cp:guadalajara:2015",
+                "attributes": [
+                    {
+                        "name": "alcantarilla1",
+                        "type": "float",
+                        "value": "100.3"
+                    },
+                    {
+                        "name": "lat",
+                        "type": "string",
+                        "value": "100.3, 12.23"
+                    },
+                    {
+                        "name": "liters",
+                        "type": "string",
+                        "value": "100.3, 123"
+                    },
+                    {
+                        "name": "long",
+                        "type": "string",
+                        "value": "100.3, 12.23"
+                    },
+                    {
+                        "name": "price",
+                        "type": "string",
+                        "value": "100.3, 12.23"
+                    }
+                ]
+            },
+            "statusCode": {
+                "code": "200",
+                "reasonPhrase": "OK"
+            }
+        },
+        "result": {
+            "alcantarilla1": "100.3",
+            "lat": "100.3, 12.23",
+            "liters": "100.3, 123",
+            "long": "100.3, 12.23",
+            "price": "100.3, 12.23"
+        },
+        "serverInformation": {
+            "serverName": "actionhero API",
+            "apiVersion": "0.0.1",
+            "requestDuration": 239,
+            "currentTime": 1437890989101
+        },
+        "requesterInformation": {
+            "id": "0dbd6073d6bd8684ba04dc11a0678deaa2d01372-7752908b-33f0-49f6-af63-f27b06c07859",
+            "fingerprint": "0dbd6073d6bd8684ba04dc11a0678deaa2d01372",
+            "remoteIP": "127.0.0.1",
+            "receivedParams": {
+                "action": "getData",
+                "apiVersion": 1
+            }
+        }
     }
   },
 

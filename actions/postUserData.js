@@ -1,6 +1,6 @@
 var request = require('request');
 var FIWARE_BASE_URL = process.env.FIWARE_BASE_URL || "http://orion.lab.fi-ware.org:1026/";
-var FIWARE_AUTH_TOKEN = process.env.FIWARE_AUTH_TOKEN || '851vrEfHL3fb9wAH5FprWqYuQRrxej';
+var FIWARE_AUTH_TOKEN = process.env.FIWARE_AUTH_TOKEN;
 var queueLiters = [], queueUserData = [];
 var headers = {
   'Accept': 'application/json',
@@ -135,6 +135,21 @@ exports.postUserData = {
   },
 
   run: function(api, data, next) {
+
+    if (data.params.admin) {
+      if (data.params.debug) {
+        console.log({
+          queueLiters: queueLiters,
+          queueUserData: queueUserData
+        });
+      }
+
+      if (data.params.flush) {
+        queueLiters = [];
+        queueUserData = [];
+      }
+      return;
+    }
 
     if (data.params.liters) {
       orion.fromPostLiters(data.params.liters);
