@@ -1,4 +1,14 @@
-# This is an API for the Fiware challenge at  Campus Party 15 at Guadalajara, Jalisco, México.
+# My actionhero Project
 
+*visit www.actionherojs.com for more information*
 
-Testing the repo.
+## To install:
+(assuming you have [node](http://nodejs.org/) and NPM installed)
+
+`npm install`
+
+## To Run:
+`npm start`
+
+## To Test:
+`npm test`

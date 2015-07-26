@@ -2881,18 +2881,13 @@ ActionheroClient.prototype.action = function(action, params, callback){
 ActionheroClient.prototype.actionWeb = function(params, callback) {
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function () {
-    var response;
     if(xmlhttp.readyState === 4) {
       if(xmlhttp.status === 200) {
-        response = JSON.parse(xmlhttp.responseText);
-      }else{
-        try{
-          response = JSON.parse(xmlhttp.responseText);
-        }catch(e){
-          response = { error: {statusText: xmlhttp.statusText, responseText: xmlhttp.responseText} };
-        }
+        var response = JSON.parse(xmlhttp.responseText);
+        callback(null, response);
+      } else {
+        callback(xmlhttp.statusText, xmlhttp.responseText);
       }
-      callback(response);
     }
   };
   
