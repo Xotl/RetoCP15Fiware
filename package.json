@@ -1,7 +1,7 @@
  {
-  "author"      : "YOU <YOU@example.com>",
-  "name"        : "my_actionhero_project",
-  "description" : "my actionhero project",
+  "author"      : "Xotl <edgardo333@gmail.com>",
+  "name"        : "gaschecker",
+  "description" : "Reto CP15 México",
   "version"     : "0.0.1",
   "engines"     : {
     "node": ">=0.10.0"
@@ -9,7 +9,8 @@
   "dependencies" : {
     "actionhero" : "11.2.4",
     "ws"         : "latest",
-    "grunt"      : "latest"
+    "grunt"      : "latest",
+    "request"    : "latest"
   },
   "devDependencies" : {
     "mocha"  : "latest",
