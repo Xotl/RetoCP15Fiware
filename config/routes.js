@@ -1,9 +1,14 @@
-exports.default = { 
+exports.default = {
   routes: function(api){
     return {
-      
+
+      get: [
+        { path: '/stuff/statusPage', action: 'status' }
+      ]
+
+
       /* ---------------------
-      routes.js 
+      routes.js
 
       For web clients (http and https) you can define an optional RESTful mapping to help route requests to actions.
       If the client doesn't specify and action in a param, and the base route isn't a named action, the action will attempt to be discerned from this routes.js file.
@@ -11,7 +16,7 @@ exports.default = {
       Learn more here: http://www.actionherojs.com/docs/servers/web.html
 
       examples:
-      
+
       get: [
         { path: '/users', action: 'usersList' }, // (GET) /api/users
         { path: '/search/:term/limit/:limit/offset/:offset', action: 'search' }, // (GET) /api/search/car/limit/10/offset/100
@@ -24,9 +29,9 @@ exports.default = {
       all: [
         { path: '/user/:userID', action: 'user' } // (*) / /api/user/123
       ]
-      
+
       ---------------------- */
-      
+
     }
   }
 }

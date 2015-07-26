@@ -1,13 +1,116 @@
-{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-07-26T00:37:05.180Z"}
-{"level":"warning","message":"running with fakeredis","timestamp":"2015-07-26T00:37:05.210Z"}
-{"level":"notice","message":"pid: 8750","timestamp":"2015-07-26T00:37:05.348Z"}
-{"level":"notice","message":"server ID: 192.168.134.132","timestamp":"2015-07-26T00:37:05.348Z"}
-{"level":"info","message":"ensuring the existence of the chatRoom: defaultRoom","timestamp":"2015-07-26T00:37:05.348Z"}
-{"level":"info","message":"ensuring the existence of the chatRoom: anotherRoom","timestamp":"2015-07-26T00:37:05.349Z"}
-{"level":"notice","message":"starting server: web","timestamp":"2015-07-26T00:37:05.352Z"}
-{"level":"notice","message":"starting server: websocket","timestamp":"2015-07-26T00:37:05.358Z"}
-{"level":"notice","message":"environment: development","timestamp":"2015-07-26T00:37:06.541Z"}
-{"level":"notice","message":"*** Server Started @ 2015-07-25 19:37:06 ***","timestamp":"2015-07-26T00:37:06.541Z"}
-{"level":"info","message":"actionhero member 192.168.134.132 has joined the cluster","timestamp":"2015-07-26T00:37:06.545Z"}
-{"to":"127.0.0.1","action":"showDocumentation","params":"{\"action\":\"showDocumentation\",\"apiVersion\":1}","duration":3,"level":"info","message":"[ action @ web ]","timestamp":"2015-07-26T00:37:18.937Z"}
-{"to":"127.0.0.1","action":"status","params":"{\"action\":\"status\",\"apiVersion\":1}","duration":24,"level":"info","message":"[ action @ web ]","timestamp":"2015-07-26T00:37:18.968Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-07-26T00:55:33.372Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2015-07-26T00:55:33.397Z"}
+{"level":"notice","message":"pid: 9506","timestamp":"2015-07-26T00:55:33.523Z"}
+{"level":"notice","message":"server ID: 192.168.134.132","timestamp":"2015-07-26T00:55:33.523Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: defaultRoom","timestamp":"2015-07-26T00:55:33.524Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: anotherRoom","timestamp":"2015-07-26T00:55:33.524Z"}
+{"level":"notice","message":"starting server: web","timestamp":"2015-07-26T00:55:33.527Z"}
+{"level":"notice","message":"starting server: websocket","timestamp":"2015-07-26T00:55:33.533Z"}
+{"level":"notice","message":"environment: development","timestamp":"2015-07-26T00:55:34.724Z"}
+{"level":"notice","message":"*** Server Started @ 2015-07-25 19:55:34 ***","timestamp":"2015-07-26T00:55:34.724Z"}
+{"level":"info","message":"actionhero member 192.168.134.132 has joined the cluster","timestamp":"2015-07-26T00:55:34.727Z"}
+{"to":"127.0.0.1","action":"showDocumentation","params":"{\"action\":\"showDocumentation\",\"apiVersion\":1}","duration":3,"level":"info","message":"[ action @ web ]","timestamp":"2015-07-26T00:55:39.273Z"}
+{"to":"127.0.0.1","action":"status","params":"{\"action\":\"status\",\"apiVersion\":1}","duration":41,"level":"info","message":"[ action @ web ]","timestamp":"2015-07-26T00:55:39.326Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing","timestamp":"2015-07-26T00:55:49.368Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-07-26T00:56:01.966Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2015-07-26T00:56:01.989Z"}
+{"level":"notice","message":"pid: 9523","timestamp":"2015-07-26T00:56:02.123Z"}
+{"level":"notice","message":"server ID: 192.168.134.132","timestamp":"2015-07-26T00:56:02.123Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: defaultRoom","timestamp":"2015-07-26T00:56:02.124Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: anotherRoom","timestamp":"2015-07-26T00:56:02.124Z"}
+{"level":"notice","message":"starting server: web","timestamp":"2015-07-26T00:56:02.127Z"}
+{"level":"notice","message":"starting server: websocket","timestamp":"2015-07-26T00:56:02.133Z"}
+{"level":"notice","message":"environment: development","timestamp":"2015-07-26T00:56:03.271Z"}
+{"level":"notice","message":"*** Server Started @ 2015-07-25 19:56:03 ***","timestamp":"2015-07-26T00:56:03.271Z"}
+{"level":"info","message":"actionhero member 192.168.134.132 has joined the cluster","timestamp":"2015-07-26T00:56:03.274Z"}
+{"to":"127.0.0.1","action":"showDocumentation","params":"{\"action\":\"showDocumentation\",\"apiVersion\":1}","duration":3,"level":"info","message":"[ action @ web ]","timestamp":"2015-07-26T00:56:05.465Z"}
+{"to":"127.0.0.1","action":"status","params":"{\"action\":\"status\",\"apiVersion\":1}","duration":31,"level":"info","message":"[ action @ web ]","timestamp":"2015-07-26T00:56:05.504Z"}
+{"to":"127.0.0.1","action":"showDocumentation","params":"{\"action\":\"showDocumentation\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2015-07-26T00:56:12.298Z"}
+{"to":"127.0.0.1","action":"status","params":"{\"action\":\"status\",\"apiVersion\":1}","duration":10,"level":"info","message":"[ action @ web ]","timestamp":"2015-07-26T00:56:12.316Z"}
+{"level":"info","message":"\r\n\r\n*** rebooting due to config change (/home/xotl/Desktop/RetoCP15Fiware/config/routes.js) ***\r\n\r\n","timestamp":"2015-07-26T00:57:23.382Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing","timestamp":"2015-07-26T00:57:23.383Z"}
+{"level":"notice","message":"stopping server: web","timestamp":"2015-07-26T00:57:23.384Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-07-26T00:57:23.442Z"}
+{"level":"notice","message":"stopping server: websocket","timestamp":"2015-07-26T00:57:23.385Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2015-07-26T00:57:23.443Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2015-07-26T00:57:23.388Z"}
+{"level":"info","message":"actionhero member 192.168.134.132 has left the cluster","timestamp":"2015-07-26T00:57:23.447Z"}
+{"level":"notice","message":"pid: 9523","timestamp":"2015-07-26T00:57:23.455Z"}
+{"level":"notice","message":"server ID: 192.168.134.132","timestamp":"2015-07-26T00:57:23.455Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: defaultRoom","timestamp":"2015-07-26T00:57:23.455Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: anotherRoom","timestamp":"2015-07-26T00:57:23.456Z"}
+{"level":"notice","message":"starting server: web","timestamp":"2015-07-26T00:57:23.458Z"}
+{"level":"notice","message":"starting server: websocket","timestamp":"2015-07-26T00:57:23.459Z"}
+{"level":"notice","message":"environment: development","timestamp":"2015-07-26T00:57:24.136Z"}
+{"level":"notice","message":"*** Server Started @ 2015-07-25 19:57:24 ***","timestamp":"2015-07-26T00:57:24.136Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2015-07-26T00:57:24.136Z"}
+{"level":"info","message":"actionhero member 192.168.134.132 has joined the cluster","timestamp":"2015-07-26T00:57:24.138Z"}
+{"level":"info","message":"\r\n\r\n*** rebooting due to config change (/home/xotl/Desktop/RetoCP15Fiware/config/routes.js) ***\r\n\r\n","timestamp":"2015-07-26T00:57:27.393Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing","timestamp":"2015-07-26T00:57:27.395Z"}
+{"level":"notice","message":"stopping server: web","timestamp":"2015-07-26T00:57:27.396Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-07-26T00:57:27.458Z"}
+{"level":"notice","message":"stopping server: websocket","timestamp":"2015-07-26T00:57:27.398Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2015-07-26T00:57:27.458Z"}
+{"level":"alert","message":"The actionhero has been stopped","timestamp":"2015-07-26T00:57:27.404Z"}
+{"level":"info","message":"actionhero member 192.168.134.132 has left the cluster","timestamp":"2015-07-26T00:57:27.462Z"}
+{"level":"notice","message":"pid: 9523","timestamp":"2015-07-26T00:57:27.469Z"}
+{"level":"notice","message":"server ID: 192.168.134.132","timestamp":"2015-07-26T00:57:27.470Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: defaultRoom","timestamp":"2015-07-26T00:57:27.471Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: anotherRoom","timestamp":"2015-07-26T00:57:27.473Z"}
+{"level":"notice","message":"starting server: web","timestamp":"2015-07-26T00:57:27.477Z"}
+{"level":"notice","message":"starting server: websocket","timestamp":"2015-07-26T00:57:27.478Z"}
+{"level":"notice","message":"environment: development","timestamp":"2015-07-26T00:57:28.074Z"}
+{"level":"notice","message":"*** Server Started @ 2015-07-25 19:57:28 ***","timestamp":"2015-07-26T00:57:28.077Z"}
+{"level":"info","message":"*** actionhero restarted ***","timestamp":"2015-07-26T00:57:28.078Z"}
+{"level":"info","message":"actionhero member 192.168.134.132 has joined the cluster","timestamp":"2015-07-26T00:57:28.080Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing","timestamp":"2015-07-26T00:57:53.076Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-07-26T00:57:54.562Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2015-07-26T00:57:54.586Z"}
+{"level":"notice","message":"pid: 9595","timestamp":"2015-07-26T00:57:54.744Z"}
+{"level":"notice","message":"server ID: 192.168.134.132","timestamp":"2015-07-26T00:57:54.745Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: defaultRoom","timestamp":"2015-07-26T00:57:54.745Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: anotherRoom","timestamp":"2015-07-26T00:57:54.745Z"}
+{"level":"notice","message":"starting server: web","timestamp":"2015-07-26T00:57:54.749Z"}
+{"level":"notice","message":"starting server: websocket","timestamp":"2015-07-26T00:57:54.756Z"}
+{"level":"notice","message":"environment: development","timestamp":"2015-07-26T00:57:55.758Z"}
+{"level":"notice","message":"*** Server Started @ 2015-07-25 19:57:55 ***","timestamp":"2015-07-26T00:57:55.759Z"}
+{"level":"info","message":"actionhero member 192.168.134.132 has joined the cluster","timestamp":"2015-07-26T00:57:55.761Z"}
+{"to":"127.0.0.1","action":"showDocumentation","params":"{\"action\":\"showDocumentation\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2015-07-26T00:58:02.672Z"}
+{"to":"127.0.0.1","action":"status","params":"{\"action\":\"status\",\"apiVersion\":1}","duration":33,"level":"info","message":"[ action @ web ]","timestamp":"2015-07-26T00:58:02.721Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing","timestamp":"2015-07-26T00:59:27.911Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-07-26T00:59:30.869Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2015-07-26T00:59:30.903Z"}
+{"level":"notice","message":"pid: 9647","timestamp":"2015-07-26T00:59:31.043Z"}
+{"level":"notice","message":"server ID: 192.168.134.132","timestamp":"2015-07-26T00:59:31.043Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: defaultRoom","timestamp":"2015-07-26T00:59:31.044Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: anotherRoom","timestamp":"2015-07-26T00:59:31.044Z"}
+{"level":"notice","message":"starting server: web","timestamp":"2015-07-26T00:59:31.047Z"}
+{"level":"notice","message":"starting server: websocket","timestamp":"2015-07-26T00:59:31.053Z"}
+{"level":"notice","message":"environment: development","timestamp":"2015-07-26T00:59:32.130Z"}
+{"level":"notice","message":"*** Server Started @ 2015-07-25 19:59:32 ***","timestamp":"2015-07-26T00:59:32.131Z"}
+{"level":"info","message":"actionhero member 192.168.134.132 has joined the cluster","timestamp":"2015-07-26T00:59:32.134Z"}
+{"to":"127.0.0.1","action":"showDocumentation","params":"{\"action\":\"showDocumentation\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2015-07-26T00:59:38.249Z"}
+{"to":"127.0.0.1","action":"status","params":"{\"action\":\"status\",\"apiVersion\":1}","duration":23,"level":"info","message":"[ action @ web ]","timestamp":"2015-07-26T00:59:38.281Z"}
+{"to":"127.0.0.1","action":"randomNumber","params":"{\"apiVersion\":\"1\",\"action\":\"randomNumber\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2015-07-26T00:59:45.628Z"}
+{"to":"127.0.0.1","action":"showDocumentation","params":"{\"action\":\"showDocumentation\",\"apiVersion\":1}","duration":1,"level":"info","message":"[ action @ web ]","timestamp":"2015-07-26T01:02:12.876Z"}
+{"to":"127.0.0.1","action":"status","params":"{\"action\":\"status\",\"apiVersion\":1}","duration":18,"level":"info","message":"[ action @ web ]","timestamp":"2015-07-26T01:02:12.899Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing","timestamp":"2015-07-26T01:02:22.098Z"}
+{"level":"notice","message":"*** starting actionhero ***","timestamp":"2015-07-26T01:02:23.528Z"}
+{"level":"warning","message":"running with fakeredis","timestamp":"2015-07-26T01:02:23.552Z"}
+{"level":"notice","message":"pid: 9688","timestamp":"2015-07-26T01:02:23.690Z"}
+{"level":"notice","message":"server ID: 192.168.134.132","timestamp":"2015-07-26T01:02:23.690Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: defaultRoom","timestamp":"2015-07-26T01:02:23.690Z"}
+{"level":"info","message":"ensuring the existence of the chatRoom: anotherRoom","timestamp":"2015-07-26T01:02:23.691Z"}
+{"level":"notice","message":"starting server: web","timestamp":"2015-07-26T01:02:23.694Z"}
+{"level":"notice","message":"starting server: websocket","timestamp":"2015-07-26T01:02:23.700Z"}
+{"level":"notice","message":"environment: development","timestamp":"2015-07-26T01:02:24.709Z"}
+{"level":"notice","message":"*** Server Started @ 2015-07-25 20:02:24 ***","timestamp":"2015-07-26T01:02:24.710Z"}
+{"level":"info","message":"actionhero member 192.168.134.132 has joined the cluster","timestamp":"2015-07-26T01:02:24.713Z"}
+{"to":"127.0.0.1","action":"showDocumentation","params":"{\"action\":\"showDocumentation\",\"apiVersion\":1}","duration":2,"level":"info","message":"[ action @ web ]","timestamp":"2015-07-26T01:02:25.723Z"}
+{"to":"127.0.0.1","action":"status","params":"{\"action\":\"status\",\"apiVersion\":1}","duration":17,"level":"info","message":"[ action @ web ]","timestamp":"2015-07-26T01:02:25.744Z"}
+{"to":"127.0.0.1","action":"postLiters","params":"{\"apiVersion\":\"1\",\"action\":\"postLiters\"}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2015-07-26T01:02:31.356Z"}
+{"to":"127.0.0.1","action":"showDocumentation","params":"{\"action\":\"showDocumentation\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2015-07-26T01:02:33.267Z"}
+{"to":"127.0.0.1","action":"status","params":"{\"action\":\"status\",\"apiVersion\":1}","duration":10,"level":"info","message":"[ action @ web ]","timestamp":"2015-07-26T01:02:33.281Z"}
+{"to":"127.0.0.1","action":"showDocumentation","params":"{\"action\":\"showDocumentation\",\"apiVersion\":1}","duration":0,"level":"info","message":"[ action @ web ]","timestamp":"2015-07-26T01:02:35.290Z"}
+{"to":"127.0.0.1","action":"status","params":"{\"action\":\"status\",\"apiVersion\":1}","duration":12,"level":"info","message":"[ action @ web ]","timestamp":"2015-07-26T01:02:35.305Z"}
+{"level":"alert","message":"Shutting down open servers and stopping task processing","timestamp":"2015-07-26T01:02:37.815Z"}
