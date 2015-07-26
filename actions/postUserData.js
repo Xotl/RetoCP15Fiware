@@ -138,16 +138,19 @@ exports.postUserData = {
 
     if (data.params.admin) {
       if (data.params.debug) {
-        console.log({
+
+        data.response.debug = {
           queueLiters: queueLiters,
           queueUserData: queueUserData
-        });
+        };
       }
 
       if (data.params.flush) {
         queueLiters = [];
         queueUserData = [];
       }
+
+      next(null);
       return;
     }
 
