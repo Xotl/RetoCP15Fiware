@@ -173,6 +173,11 @@ exports.postUserData = {
         price: data.params.price
       };
 
+      if (!obj.lat || !obj.long || !obj.price) {
+        next("Bad data received");
+        return;
+      }
+
       orion.fromPostUser(obj);
       data.response.status = "OK";
       next(null);
