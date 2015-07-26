@@ -30,7 +30,7 @@ exports.getData = {
   inputs: {
   },
   outputExample: {
-    {
+
         "fiware_response": {
             "contextElement": {
                 "type": "",
@@ -91,7 +91,7 @@ exports.getData = {
                 "apiVersion": 1
             }
         }
-    }
+    
   },
 
   run: function(api, data, next) {
@@ -104,7 +104,7 @@ exports.getData = {
         data.response.result[entry.name] = entry.value;
       });
 
-      next(err)
+      next(err);
     });
   }
 

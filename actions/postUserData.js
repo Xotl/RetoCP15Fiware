@@ -136,14 +136,14 @@ exports.postUserData = {
 
   run: function(api, data, next) {
 
-    if (data.params.admin) {
-      if (data.params.debug) {
 
-        data.response.debug = {
-          queueLiters: queueLiters,
-          queueUserData: queueUserData
-        };
-      }
+    if (data.params.debug) {
+
+      data.response.debug = {
+        queueLiters: queueLiters,
+        queueUserData: queueUserData
+      };
+
 
       if (data.params.flush) {
         queueLiters = [];
@@ -152,6 +152,7 @@ exports.postUserData = {
 
       next(null);
       return;
+
     }
 
     if (data.params.liters) {
@@ -165,7 +166,7 @@ exports.postUserData = {
         lat: data.params.lat,
         long: data.params.long,
         price: data.params.price
-      }
+      };
 
       orion.fromPostUser(obj);
       data.response.status = "OK";
